@@ -49,3 +49,28 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 }
+.last{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.shadow{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 50%;
+    
+}
+#left-border{
+    border-left: 7px solid red;
+    border-image: linear-gradient(180deg,rgb(247, 175, 146),tomato);
+    border-image-slice: 1;
+}
+#right-border{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    background-color: rgb(3, 3, 44);
+}
